@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_page">#F2F2F7</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#8E8E93</color>
+    <color name="text_quaternary">#C7C7CC</color>
+    <color name="separator">#C6C6C8</color>
+    <color name="accent_blue">#007AFF</color>
+    <color name="switch_on">#34C759</color>
+    <color name="switch_off">#E5E5EA</color>
+    <color name="group_header">#6D6D72</color>
+</resources>

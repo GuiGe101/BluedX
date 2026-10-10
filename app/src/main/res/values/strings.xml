@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BluedX</string>
+    <string name="xposed_description">Blued 体验增强：去广告 · 允许截图 · 隐私增强</string>
+
+    <string name="title_features">功能开关</string>
+    <string name="pref_unlock_screenshot">允许截图</string>
+    <string name="pref_unlock_screenshot_desc">你自己截图不再被拦（直播、靓照也能截）</string>
+    <string name="pref_chat_screenshot_protect">聊天截屏保护</string>
+    <string name="pref_chat_screenshot_protect_desc">对方截不了你们的聊天（用 App 自带功能）</string>
+    <string name="pref_block_ads">拦截广告</string>
+    <string name="pref_block_ads_desc">过滤 WebView / 网络请求里的常见广告域名</string>
+    <string name="pref_block_analytics">拦截埋点上报</string>
+    <string name="pref_block_analytics_desc">屏蔽常见统计/崩溃 SDK 的网络请求</string>
+    <string name="pref_hide_read">隐藏已读</string>
+    <string name="pref_hide_read_desc">你看了消息，对方那边永远不会变成「已读」</string>
+    <string name="pref_delay_read">延迟已读</string>
+    <string name="pref_delay_read_desc">你看了消息，对方 30 秒后才看到「已读」（和「隐藏已读」二选一）</string>
+    <string name="pref_clean_feed">精简信息流</string>
+    <string name="pref_clean_feed_desc">隐藏推荐横幅 / 营销卡片（尽力而为）</string>
+    <string name="pref_debug_log">调试日志</string>
+    <string name="pref_debug_log_desc">输出 Hook 日志，方便适配新版本（logcat 过滤 BluedX）</string>
+
+    <string name="hint_scope">在 LSPosed 管理器里勾选作用域：Blued（com.soft.blued），然后强行停止并重启 Blued。</string>
+    <string name="hint_status_module">模块已激活</string>
+    <string name="hint_status_module_off">模块未激活（请在 LSPosed 中启用）</string>
+</resources>
